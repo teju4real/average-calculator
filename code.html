@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+        student calculate
+    </title>
+	<link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+	<div>
+        <h1>Student grade calculator</h1>
+    </div>
+    <h1>Made by Ezekiel Olateju</h1>
+
+	<div class="screen-body-item">
+		<div class="app">
+		<div class="form-group">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="MATHEMATICS"
+			id="maths"
+			/>
+		</div>
+		<div class="form-group">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="ENGLISH"
+			id="eng"
+			/>
+		</div>
+		<div class="form-group">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="PHYSICS"
+			id="phy"
+			/>
+		</div>
+		<div class="form-group">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="CHEMISTRY"
+			id="chem"
+			/>
+		</div>
+        <div class="form-group">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="BIOLOGY"
+			id="bio"
+			/>
+		</div>
+		<div>
+			<input
+			type="button"
+			value="Show Average"
+			class="form-button"
+			onclick="calculate()"
+			/>
+		</div>
+		</div>
+	</div>
+	<!-- for showing the result-->
+	<div class="form-group showdata">
+		<p id="showdata"></p>
+	</div>
+</body>
+</html>
