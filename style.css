@@ -7,6 +7,8 @@
     background: #179cad;
     font-size: 12px;
     text-align: center;
+    vh: 100%;
+    vw: 100%;
     }
     
     .container {
